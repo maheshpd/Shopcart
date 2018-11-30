@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Shopcart</string>
+
+    <!-- Slide 1 Title and Description -->
+    <string name="slide_1_title">Welcome to Shop cart</string>
+    <string name="slide_1_desc">Each online store has its own store and bag but if you want to go shopping in multiple place at once so you only have one bag</string>
+
+    <string name="slide_2_title">Deliver in Time</string>
+    <string name="slide_2_desc">Each online store has its own store and bag but if you want to go shopping in multiple place at once so you only have one bag</string>
+
+    <string name="slide_3_title">Different type Payment Option</string>
+    <string name="slide_3_desc">Each online store has its own store and bag but if you want to go shopping in multiple place at once so you only have one bag</string>
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
 </resources>

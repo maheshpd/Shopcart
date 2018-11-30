@@ -1,15 +1,15 @@
-package com.example.maheshprasad.shopcart;
+package com.example.maheshprasad.shopcart.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.maheshprasad.shopcart.R;
+
+public class Signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        //co
+        setContentView(R.layout.activity_signup);
     }
 }
