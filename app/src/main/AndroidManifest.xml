@@ -19,7 +19,11 @@
         <activity android:name=".Activity.MainActivity" />
         <activity android:name=".Activity.Splash" />
         <activity android:name=".Activity.Login" />
-        <activity android:name=".Activity.Signup"></activity>
+        <activity android:name=".Activity.Signup" />
+        <activity
+            android:name=".Activity.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
