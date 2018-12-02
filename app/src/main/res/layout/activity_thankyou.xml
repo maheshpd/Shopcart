@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Thankyou">
+
+    <TextView
+        android:id="@+id/thankyou_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="THANK YOU"
+        android:textColor="#FF0011"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/for_your_order_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thankyou_text"
+        android:layout_centerHorizontal="true"
+        android:text="FOR YOUR ORDER"
+        android:textColor="#FF0011" />
+
+    <TextView
+        android:id="@+id/order_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/for_your_order_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Order Number : # 54213"
+        android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:id="@+id/ven_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/order_number_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ven_image" />
+
+    <TextView
+        android:id="@+id/estimate_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ven_image"
+        android:layout_centerHorizontal="true"
+        android:text="ESTIMATED DELIVERY"
+        android:textColor="#FF0011"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/delivery_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estimate_delivery"
+        android:layout_centerHorizontal="true"
+        android:text="Monday Oct 30, 2018" />
+
+    <Button
+        android:id="@+id/track_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delivery_date_time"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_design"
+        android:text="TRACK YOUR ORDER HERE"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/track_order_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="OR" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2FA5D7"
+        android:drawableEnd="@drawable/forward_arrow"
+        android:text="CONTINUE SHOPPING"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
