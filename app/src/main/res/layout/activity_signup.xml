@@ -26,6 +26,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="5dp"
             android:text="Skip"
+            android:onClick="GoToMain"
             android:textAllCaps="false"
             android:textColor="@color/skip_btn_color" />
 
@@ -184,6 +185,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="60dp"
             android:text="Sign ip"
+            android:onClick="Signin"
             android:textAllCaps="false"
             android:textColor="@color/hint_color"
             android:textSize="20sp" />

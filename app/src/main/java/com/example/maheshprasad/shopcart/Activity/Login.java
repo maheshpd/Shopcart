@@ -31,4 +31,17 @@ public class Login extends AppCompatActivity {
     private void Initalization() {
         mlogin_btn = findViewById(R.id.signin_login_btn);
     }
+
+    public void SignUp(View view) {
+
+    }
+
+    public void GoToMain(View view) {
+
+        goToMain();
+    }
+
+    private void goToMain() {
+        startActivity(new Intent(Login.this,MainActivity.class));
+    }
 }
